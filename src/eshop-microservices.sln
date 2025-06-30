@@ -1,13 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35514.174 d17.12
+VisualStudioVersion = 17.12.35514.174
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{80ED73AC-536A-4FFF-979A-B99B598416D2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{0EBD1CB9-A70B-4F46-A9B6-A55B45ED1597}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{D6F18987-EE52-47DB-B475-F98BC6C65DD2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{74803E13-02C9-4935-A2DD-2339E5F3A8FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingBlocks", "BuildingBlocks\BuildingBlocks\BuildingBlocks.csproj", "{C01CDAC2-3C82-4016-B194-DBCC14134F40}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +23,10 @@ Global
 		{D6F18987-EE52-47DB-B475-F98BC6C65DD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6F18987-EE52-47DB-B475-F98BC6C65DD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6F18987-EE52-47DB-B475-F98BC6C65DD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C01CDAC2-3C82-4016-B194-DBCC14134F40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C01CDAC2-3C82-4016-B194-DBCC14134F40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C01CDAC2-3C82-4016-B194-DBCC14134F40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C01CDAC2-3C82-4016-B194-DBCC14134F40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -26,5 +34,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{0EBD1CB9-A70B-4F46-A9B6-A55B45ED1597} = {80ED73AC-536A-4FFF-979A-B99B598416D2}
 		{D6F18987-EE52-47DB-B475-F98BC6C65DD2} = {0EBD1CB9-A70B-4F46-A9B6-A55B45ED1597}
+		{C01CDAC2-3C82-4016-B194-DBCC14134F40} = {74803E13-02C9-4935-A2DD-2339E5F3A8FB}
 	EndGlobalSection
 EndGlobal
